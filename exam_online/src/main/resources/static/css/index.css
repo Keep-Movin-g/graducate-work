@@ -1,0 +1,16 @@
+body{
+    background: url("../image/StockSnap_6TMVSHOKMK.jpg");
+    background-size: cover;
+}
+.catalog{
+    position:absolute;
+    left:-50px;
+    top:220px
+}
+a{
+
+    text-decoration: none; /* 去除默认的下划线 */
+
+    color: #000;    /* 去除默认的颜色和点击后变化的颜色 */
+
+}

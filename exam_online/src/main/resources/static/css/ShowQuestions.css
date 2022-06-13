@@ -1,0 +1,87 @@
+.question{
+    color: #00B86E;
+    margin:20px auto;
+    font-size: 21px!important;
+    overflow:hidden;
+    line-height:140%;
+}
+.mulchoise{
+    display: none;
+    /*border: 1px black solid !important;*/
+    padding: 20px 0 0 40px;
+}
+.Estimate{
+    display: none;
+
+    /*border: 1px black solid !important;*/
+    padding: 20px 0 0 40px;
+}
+.Dmulchoise{
+    display: none;
+
+    /*border: 1px black solid !important;*/
+    padding: 20px 0 0 40px;
+}
+.filling{
+    display: none;
+
+    /*border: 1px black solid !important;*/
+    padding: 20px 0 0 40px;
+}
+.title{
+    margin-bottom: 15px;
+    color: #181E33;
+    font-size: 23px;
+}
+.answer{
+    margin-bottom: 15px;
+
+
+}
+.remark{
+    margin-bottom: 15px;
+    color: blue;
+    text-align: inherit
+}
+.remark label{
+    float: left;
+}
+.remark .text{
+    width: 700px;
+    disable:false;
+    display: inline-block;
+
+}
+.option{
+    font-size: 20px!important;
+    color: green;
+    padding-left: 30px;
+    display: block;
+    margin-bottom: 15px;
+}
+.option input{
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: black;
+}
+#update_question{
+    width: 80%;
+    height: auto;
+    position:fixed;
+    background-color: #e4f5e4;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px orchid solid !important;
+    font-size: 19px;
+    display: none;
+}
+#update_question label{
+    text-align: center;
+    display:block;
+}
+.ui.form textarea:not([rows]) {
+    height: 5em;
+    min-height: 5em;
+    max-height: 24em;
+}

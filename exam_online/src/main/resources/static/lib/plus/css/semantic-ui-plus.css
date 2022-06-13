@@ -1,0 +1,318 @@
+/* ---------------------------------【关于下拉框】------------------------------------ */
+.ui.multiple.dropdown.red a.ui.label {
+  background-color: #db2828;
+  border-color: #db2828;
+  color: #fff;
+}
+.ui.multiple.dropdown.orange a.ui.label {
+  background-color: #f2711c;
+  border-color: #f2711c;
+  color: #fff;
+}
+.ui.multiple.dropdown.yellow a.ui.label {
+  background-color: #fbbd08;
+  border-color: #fbbd08;
+  color: #fff;
+}
+.ui.multiple.dropdown.olive a.ui.label {
+  background-color: #b5cc18;
+  border-color: #b5cc18;
+  color: #fff;
+}
+.ui.multiple.dropdown.green a.ui.label {
+  background-color: #21ba45;
+  border-color: #21ba45;
+  color: #fff;
+}
+.ui.multiple.dropdown.teal a.ui.label {
+  background-color: #00b5ad;
+  border-color: #00b5ad;
+  color: #fff;
+}
+.ui.multiple.dropdown.blue a.ui.label {
+  background-color: #1678c2;
+  border-color: #1678c2;
+  color: #fff;
+}
+.ui.multiple.dropdown.violet a.ui.label {
+  background-color: #6435c9;
+  border-color: #6435c9;
+  color: #fff;
+}
+.ui.multiple.dropdown.purple a.ui.label {
+  background-color: #a333c8;
+  border-color: #a333c8;
+  color: #fff;
+}
+.ui.multiple.dropdown.pink a.ui.label {
+  background-color: #e03997;
+  border-color: #e03997;
+  color: #fff;
+}
+.ui.multiple.dropdown.brown a.ui.label {
+  background-color: #a5673f;
+  border-color: #a5673f;
+  color: #fff;
+}
+.ui.multiple.dropdown.grey a.ui.label {
+  background-color: #767676;
+  border-color: #767676;
+  color: #fff;
+}
+.ui.multiple.dropdown.black a.ui.label {
+  background-color: #1b1c1d;
+  border-color: #1b1c1d;
+  color: #fff;
+}
+/* ---------------------------------【关于复选框】------------------------------------ */
+.ui.checkbox.red input:checked ~ .box:after,
+.ui.checkbox.red input:checked ~ label:after {
+  opacity: 1;
+  color: #FFFFFF;
+  background-color: #db2828;
+  border-radius: 5px;
+}
+.ui.checkbox.orange input:checked ~ .box:after,
+.ui.checkbox.orange input:checked ~ label:after {
+  opacity: 1;
+  color: #FFFFFF;
+  background-color: #f2711c;
+  border-radius: 5px;
+}
+.ui.checkbox.yellow input:checked ~ .box:after,
+.ui.checkbox.yellow input:checked ~ label:after {
+  opacity: 1;
+  color: #FFFFFF;
+  background-color: #fbbd08;
+  border-radius: 5px;
+}
+.ui.checkbox.olive input:checked ~ .box:after,
+.ui.checkbox.olive input:checked ~ label:after {
+  opacity: 1;
+  color: #FFFFFF;
+  background-color: #b5cc18;
+  border-radius: 5px;
+}
+.ui.checkbox.green input:checked ~ .box:after,
+.ui.checkbox.green input:checked ~ label:after {
+  opacity: 1;
+  color: #FFFFFF;
+  background-color: #21ba45;
+  border-radius: 5px;
+}
+.ui.checkbox.teal input:checked ~ .box:after,
+.ui.checkbox.teal input:checked ~ label:after {
+  opacity: 1;
+  color: #FFFFFF;
+  background-color: #00b5ad;
+  border-radius: 5px;
+}
+.ui.checkbox.blue input:checked ~ .box:after,
+.ui.checkbox.blue input:checked ~ label:after {
+  opacity: 1;
+  color: #FFFFFF;
+  background-color: #2185d0;
+  border-radius: 5px;
+}
+.ui.checkbox.violet input:checked ~ .box:after,
+.ui.checkbox.violet input:checked ~ label:after {
+  opacity: 1;
+  color: #FFFFFF;
+  background-color: #6435c9;
+  border-radius: 5px;
+}
+.ui.checkbox.purple input:checked ~ .box:after,
+.ui.checkbox.purple input:checked ~ label:after {
+  opacity: 1;
+  color: #FFFFFF;
+  background-color: #a333c8;
+  border-radius: 5px;
+}
+.ui.checkbox.pink input:checked ~ .box:after,
+.ui.checkbox.pink input:checked ~ label:after {
+  opacity: 1;
+  color: #FFFFFF;
+  background-color: #e03997;
+  border-radius: 5px;
+}
+.ui.checkbox.brown input:checked ~ .box:after,
+.ui.checkbox.brown input:checked ~ label:after {
+  opacity: 1;
+  color: #FFFFFF;
+  background-color: #a5673f;
+  border-radius: 5px;
+}
+.ui.checkbox.grey input:checked ~ .box:after,
+.ui.checkbox.grey input:checked ~ label:after {
+  opacity: 1;
+  color: #FFFFFF;
+  background-color: #767676;
+  border-radius: 5px;
+}
+.ui.checkbox.black input:checked ~ .box:after,
+.ui.checkbox.black input:checked ~ label:after {
+  opacity: 1;
+  color: #FFFFFF;
+  background-color: #1b1c1d;
+  border-radius: 5px;
+}
+/* ---------------------------------【关于单选框】------------------------------------ */
+.ui.radio.checkbox.red input:checked ~ .box:after,
+.ui.radio.checkbox.red input:checked ~ label:after {
+  background-color: #db2828;
+}
+.ui.radio.checkbox.orange input:checked ~ .box:after,
+.ui.radio.checkbox.orange input:checked ~ label:after {
+  background-color: #f2711c;
+}
+.ui.radio.checkbox.yellow input:checked ~ .box:after,
+.ui.radio.checkbox.yellow input:checked ~ label:after {
+  background-color: #fbbd08;
+}
+.ui.radio.checkbox.olive input:checked ~ .box:after,
+.ui.radio.checkbox.olive input:checked ~ label:after {
+  background-color: #b5cc18;
+}
+.ui.radio.checkbox.green input:checked ~ .box:after,
+.ui.radio.checkbox.green input:checked ~ label:after {
+  background-color: #21ba45;
+}
+.ui.radio.checkbox.teal input:checked ~ .box:after,
+.ui.radio.checkbox.teal input:checked ~ label:after {
+  background-color: #00b5ad;
+}
+.ui.radio.checkbox.blue input:checked ~ .box:after,
+.ui.radio.checkbox.blue input:checked ~ label:after {
+  background-color: #2185d0;
+}
+.ui.radio.checkbox.violet input:checked ~ .box:after,
+.ui.radio.checkbox.violet input:checked ~ label:after {
+  background-color: #6435c9;
+}
+.ui.radio.checkbox.purple input:checked ~ .box:after,
+.ui.radio.checkbox.purple input:checked ~ label:after {
+  background-color: #a333c8;
+}
+.ui.radio.checkbox.pink input:checked ~ .box:after,
+.ui.radio.checkbox.pink input:checked ~ label:after {
+  background-color: #e03997;
+}
+.ui.radio.checkbox.brown input:checked ~ .box:after,
+.ui.radio.checkbox.brown input:checked ~ label:after {
+  background-color: #a5673f;
+}
+.ui.radio.checkbox.grey input:checked ~ .box:after,
+.ui.radio.checkbox.grey input:checked ~ label:after {
+  background-color: #767676;
+}
+.ui.radio.checkbox.black input:checked ~ .box:after,
+.ui.radio.checkbox.black input:checked ~ label:after {
+  background-color: #1b1c1d;
+}
+/* ---------------------------------【关于按钮】------------------------------------ */
+.ui.button.red.gradient {
+  background-color: transparent;
+  background-image: linear-gradient(to right, #ffb3b3, #db2828);
+}
+.ui.button.red.gradient:hover {
+  background-image: linear-gradient(to right, #db2828, #db2828);
+}
+.ui.button.orange.gradient {
+  background-color: transparent;
+  background-image: linear-gradient(to right, #ffd1b2, #f2711c);
+}
+.ui.button.orange.gradient:hover {
+  background-image: linear-gradient(to right, #f2711c, #f2711c);
+}
+.ui.button.yellow.gradient {
+  background-color: transparent;
+  background-image: linear-gradient(to right, #fcedc2, #fbbd08);
+}
+.ui.button.yellow.gradient:hover {
+  background-image: linear-gradient(to right, #fbbd08, #fbbd08);
+}
+.ui.button.olive.gradient {
+  background-color: transparent;
+  background-image: linear-gradient(to right, #f6ffc2, #b5cc18);
+}
+.ui.button.olive.gradient:hover {
+  background-image: linear-gradient(to right, #b5cc18, #b5cc18);
+}
+.ui.button.green.gradient {
+  background-color: transparent;
+  background-image: linear-gradient(to right, #b5ffc6, #21ba45);
+}
+.ui.button.green.gradient:hover {
+  background-image: linear-gradient(to right, #21ba45, #21ba45);
+}
+.ui.button.teal.gradient {
+  background-color: transparent;
+  background-image: linear-gradient(to right, #c5fffe, #00b5ad);
+}
+.ui.button.teal.gradient:hover {
+  background-image: linear-gradient(to right, #00b5ad, #00b5ad);
+}
+.ui.button.blue.gradient {
+  background-color: transparent;
+  background-image: linear-gradient(to right, #c4e7ff, #2185d0);
+}
+.ui.button.blue.gradient:hover {
+  background-image: linear-gradient(to right, #2185d0, #2185d0);
+}
+.ui.button.violet.gradient {
+  background-color: transparent;
+  background-image: linear-gradient(to right, #dfcfff, #6435c9);
+}
+.ui.button.violet.gradient:hover {
+  background-image: linear-gradient(to right, #db2828, #db2828);
+}
+.ui.button.purple.gradient {
+  background-color: transparent;
+  background-image: linear-gradient(to right, #f1ccff, #a333c8);
+}
+.ui.button.purple.gradient:hover {
+  background-image: linear-gradient(to right, #a333c8, #a333c8);
+}
+.ui.button.pink.gradient {
+  background-color: transparent;
+  background-image: linear-gradient(to right, #ffc4e4, #e03997);
+}
+.ui.button.pink.gradient:hover {
+  background-image: linear-gradient(to right, #e03997, #e03997);
+}
+.ui.button.brown.gradient {
+  background-color: transparent;
+  background-image: linear-gradient(to right, #ffe2cd, #a5673f);
+}
+.ui.button.brown.gradient:hover {
+  background-image: linear-gradient(to right, #a5673f, #a5673f);
+}
+.ui.button.grey.gradient {
+  background-color: transparent;
+  background-image: linear-gradient(to right, #d2d2d2, #767676);
+}
+.ui.button.grey.gradient:hover {
+  background-image: linear-gradient(to right, #767676, #767676);
+}
+.ui.button.black.gradient {
+  background-color: transparent;
+  background-image: linear-gradient(to right, #acafb3, #1b1c1d);
+}
+.ui.button.black.gradient:hover {
+  background-image: linear-gradient(to right, #1b1c1d, #1b1c1d);
+}
+/* ---------------------------------【关于背景模糊】------------------------------------ */
+.ui.segment.blur,
+.ui.card.blur {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(3px);
+}
+/* ---------------------------------【关于文本对齐】------------------------------------ */
+.center-text {
+  text-align: center;
+}
+/* ---------------------------------【关于显示】------------------------------------ */
+.noVisible {
+  display: none;
+}
+/*# sourceMappingURL=semantic-ui-plus.css.map */
