@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>考试详情</title>
+    <link rel="stylesheet" href="../lib/semantic/semantic.css">
+    <!-- 引入 jquery 脚本文件 -->
+    <!-- 引入吐司【toastr】框架样式 -->
+    <link rel="stylesheet" href="../lib/toastr/build/toastr.css">
+    <!-- 引入自定义的 toastr 样式 -->
+    <link rel="stylesheet" href="../lib/plus/css/toastr-plus.css">
+    <link rel="stylesheet" href="../css/ResultDetail.css">
+
+
+</head>
+<body>
+<div class="ui grid">
+    <div class="one wide column"></div>
+    <div class=" fourteen wide column">
+        <div class="detailsHead">
+            <h2 class="mark_title">
+            题目名
+            </h2>
+            <div class="infoHead">
+                <span>满分：100 </span>
+                <span>错题数：</span>
+            </div>
+            <div style="clear: both;"></div>
+            <span class="resultNum"><i>78</i>分</span>
+        </div>
+        <div class="question"></div>
+        <div class="question">
+            <!--单选题-->
+            <div class="mulchoise ">
+                <div class="ui divider"></div>
+                <div class="grouped fields">
+
+                    <div class="title">
+                        <label>1、</label>
+                        <label style="color: #A8A8B3"><b>[单选题]</b></label>
+                        <label for="fruit">选择你第二喜欢的水果</label></div>
+                    <div class="field">
+                        <div class="ui radio checkbox option">
+                            <input type="radio" name="fruit" tabindex="0" class="hidden">
+                            <label>苹果</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui radio checkbox option">
+                            <input type="radio" name="fruit" tabindex="0" class="hidden">
+                            <label>橘子</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui radio checkbox option">
+                            <input type="radio" name="fruit" tabindex="0" class="hidden">
+                            <label>梨</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui radio checkbox option">
+                            <input type="radio" name="fruit" tabindex="0" class="hidden">
+                            <label>梨</label>
+                        </div>
+                    </div>
+                    <div class="field mark_answer">
+                        <table>我的答案：</table>
+                        <div>
+                            <table class="my_answer"></table>
+                        </div>
+
+                        <table>正确答案：</table>
+                        <div>
+                            <table class="answer"></table>
+                        </div>
+
+                        <label>答案解析：</label>
+                        <div class="text remark">无</div>
+                    </div>
+                </div>
+            </div>
+            <!--            多选题-->
+            <div class="Dmulchoise">
+                <div class="ui divider"></div>
+                <div class="grouped fields">
+
+                    <div class="title">
+                        <label>1、</label>
+                        <label style="color: #A8A8B3"><b>[多选题]</b></label>
+                        <label for="fruit">选择你第二喜欢的水果</label></div>
+                    <div class="field">
+                        <div class="ui  checkbox option">
+                            <input type="checkbox" name="fruit" tabindex="0" class="hidden">
+                            <label>苹果</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui  checkbox option">
+                            <input type="checkbox" name="fruit" class="hidden">
+                            <label>橘子</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui  checkbox option">
+                            <input type="checkbox" name="fruit" class="hidden">
+                            <label>梨</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui  checkbox option">
+                            <input type="checkbox" name="fruit" class="hidden">
+                            <label>梨</label>
+                        </div>
+                    </div>
+                    <div class="field mark_answer">
+                        <table>我的答案：</table>
+                        <div>
+                            <table class="my_answer"></table>
+                        </div>
+
+                        <table>正确答案：</table>
+                        <div>
+                            <table class="answer"></table>
+                        </div>
+
+                        <label>答案解析：</label>
+                        <div class="text remark">无</div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 判断题 -->
+            <div class="Estimate">
+                <div class="ui divider"></div>
+                <div class="grouped fields">
+
+                    <div class="title">
+                        <label>1、</label>
+                        <label style="color: #A8A8B3"><b>[判断题]</b></label>
+                        <label for="fruit">选择你第二喜欢的水果</label></div>
+                    <div class="field">
+                        <div class="ui radio checkbox option">
+                            <input type="radio" name="fruit" tabindex="0" class="hidden">
+                            <label>对</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui radio checkbox option">
+                            <input type="radio" name="fruit" tabindex="0" class="hidden">
+                            <label>错</label>
+                        </div>
+                    </div>
+                    <div class="field mark_answer">
+                        <table>我的答案：</table>
+                        <div>
+                            <table class="my_answer"></table>
+                        </div>
+
+                        <table>正确答案：</table>
+                        <div>
+                            <table class="answer"></table>
+                        </div>
+
+                        <label>答案解析：</label>
+                        <div class="text remark">无</div>
+                    </div>
+                </div>
+            </div>
+            <!--填空题-->
+            <div class="filling">
+                <div class="ui divider"></div>
+                <div class="grouped fields">
+
+                    <div class="title">
+                        <label>1、</label>
+                        <label style="color: #A8A8B3"><b>[填空题]</b></label>
+                        <label for="fruit">选择你第二喜欢的水果</label>
+                    </div>
+                    <div class="eight wide field option">
+                        <label>1：</label>
+                        <input type="text">
+                    </div>
+                    <div class="field mark_answer">
+
+                        <table>我的答案：</table>
+
+                        <div>
+                            <table class="my_answer"></table>
+                        </div>
+
+                        <table>正确答案：</table>
+                        <div>
+                            <table class="answer"></table>
+                        </div>
+
+
+                        <label>答案解析</label>
+                        <div class="remark text">无</div>
+                    </div>
+                </div>
+                <!--            题目错误提示-->
+                <div class="ui negative message hidden errorObj">
+                    <i class="close icon"></i>
+                    <div class="header"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="one wide column"></div>
+</div>
+<script src="../lib/jquery/jquery-3.3.1.js"></script>
+<!-- 引入 semantic 脚本文件 -->
+<script src="../lib/semantic/semantic.js"></script>
+<!-- 引入吐司【toastr】脚本文件-->
+<script src="../lib/toastr/build/toastr.min.js"></script>
+<script src="../js/ResultDetail.js"></script>
+
+</body>
+</html>

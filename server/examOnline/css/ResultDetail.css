@@ -1,0 +1,125 @@
+body{
+    -webkit-font-smoothing: antialiased;
+    font: 12px / 1.5 微软雅黑, 黑体, Arial, Helvetica, sans-serif;
+}
+.question{
+    color: #00B86E;
+    margin:20px auto;
+    font-size: 21px!important;
+    overflow:hidden;
+    line-height:140%;
+}
+.mulchoise{
+    display: none;
+    /*border: 1px black solid !important;*/
+    padding: 20px 0 0 40px;
+}
+.Estimate{
+    display: none;
+
+    /*border: 1px black solid !important;*/
+    padding: 20px 0 0 40px;
+}
+.Dmulchoise{
+    display: none;
+
+    /*border: 1px black solid !important;*/
+    padding: 20px 0 0 40px;
+}
+.filling{
+    display: none;
+
+    /*border: 1px black solid !important;*/
+    padding: 20px 0 0 40px;
+}
+.title{
+    margin-bottom: 15px;
+    color: #181E33;
+    font-size: 23px;
+}
+.answer{
+    margin-bottom: 15px;
+    color: #181E33;
+    font-style: normal;
+
+}
+.my_answer{
+    margin-bottom: 15px;
+    color: #00B86E;
+}
+.remark{
+    margin-bottom: 15px;
+    color: blue;
+    text-align: inherit
+}
+.remark label{
+    float: left;
+}
+.remark .text{
+    width: 700px;
+    disable:false;
+    display: inline-block;
+
+}
+.option{
+    font-size: 20px!important;
+    color: green;
+    padding-left: 30px;
+    display: block;
+    margin-bottom: 15px;
+}
+.option input{
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: black;
+}
+.t_f{
+    text-align: right;
+    float: right;
+    display: inline-block;
+    font-size: 2.0em!important;
+}
+
+.mark_answer {
+    min-height: 20px;
+    padding: 16px 20px;
+    margin-top: 16px;
+    border: solid #F0F3F7 1px;
+    border-left: 5px solid #e1e7f0;
+    position: relative;
+    margin-left: 20px;
+}
+.mark_title {
+    line-height: 25px;
+    padding: 30px  40px 0;
+    font-size: 25px;
+    color: #181E33;
+    font-weight: bold;
+    width: 575px;
+}
+.infoHead {
+    padding: 10px 0 0 40px;
+    overflow: hidden;
+    line-height: 20px;
+    color: #A8A8B3;
+    font-size: 20px;
+    float: left;
+
+}
+.infoHead span {
+    display: inline-block;
+    padding-right: 20px;
+}
+.resultNum {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    color: #F7704E;
+    font-size: 25px;
+}
+.detailsHead {
+    position: relative;
+    border-bottom: 1px solid #F2F2F2;
+    padding-bottom: 20px;
+
+}
