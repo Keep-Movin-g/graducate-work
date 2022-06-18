@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wzy.exam_online.dao.MyAnswerDao">
+
+    <!--  新增多条记录  -->
+    <!--foreach   collection集合的类型 item:当前循环的对象 每次循环后的分割符 -->
+    <insert id="insertMyAnswerList" parameterType="list" useGeneratedKeys="true" keyProperty="id">
+        insert into my_answer values
+
+        <foreach collection="list" item="u" separator="," >
+            (#{u.qid},#{u.myAnswer},#{u.TF},#{u.pid})
+        </foreach>
+    </insert>
+
+</mapper>
